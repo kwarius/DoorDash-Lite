@@ -1,0 +1,402 @@
+[
+  {
+    "status": "Closed",
+    "description": "Burgers, Fast Food, Fries, Sandwiches, American, Late Night, Lunch, Comfort Food, Dinner, Comfort, Chicken, Sandwich, Vegetarian, Gluten-Free, Free Delivery, Pasta, Soup, &Drinks, Cheesesteaks, Deals, Dessert, Dinners, Good for Groups, Pickup, Restaurants, Salads, Soda, Alcohol",
+    "delivery_fee": 100,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/The-Melt.png",
+    "id": 62087,
+    "name": "The Melt"
+  },
+  {
+    "status": "30 mins",
+    "description": "Convenience, Grocery, Snacks, Slurpee, Chips, Ice Cream, Soda, Cheetos, Candy, Water, 7 Eleven, 7/11, 7-11",
+    "delivery_fee": 750,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/big.png",
+    "id": 738115,
+    "name": "7-Eleven"
+  },
+  {
+    "status": "Opened",
+    "description": "Hawaiian, Chicken, Comfort Food, Salads, Fast Food, Barbeque, Asian, Pickup, Takeout, Sandwich, Breakfast, Catering, Family Meals",
+    "delivery_fee": 1000,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/LLHawaiianBBQ_5752105_Las_Vegas_NV.png",
+    "id": 52948,
+    "name": "L&L Hawaiian Barbecue"
+  },
+  {
+    "status": "Opened",
+    "description": "Dinner, American (New), Sandwich, Fast Food, Burgers, Late Night, Breakfast, Lunch",
+    "delivery_fee": 632,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/Jack_Logo.png",
+    "id": 1084575,
+    "name": "Jack in the Box"
+  },
+  {
+    "status": "1 hr",
+    "description": "Pizza, Chicken Wings, Sandwiches, Dessert, Takeout, Pickup",
+    "delivery_fee": 799,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/papajohns440x230-transparent.png",
+    "id": 65207,
+    "name": "Papa John's Pizza"
+  },
+  {
+    "status": "2 hrs",
+    "description": "Fast Food, Burgers, Ice Cream, Breakfast, American (New), Dinner",
+    "delivery_fee": 97,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/McD_GoldenArches_1235_RGB_1.jpg",
+    "id": 662193,
+    "name": "McDonald's"
+  },
+  {
+    "status": "Closed",
+    "description": "Indian",
+    "delivery_fee": 1000,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/Dosa_Cover_Photo_.jpg",
+    "id": 763697,
+    "name": "dosa by DOSA"
+  },
+  {
+    "status": "Closed",
+    "description": "Good for Groups, Asian Food, Cambodian, Asian, Thai, Chinese",
+    "delivery_fee": 799,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/Tommy-Thai.png",
+    "id": 1443,
+    "name": "Tommy Thai"
+  },
+  {
+    "status": "Opened",
+    "description": "Mexican",
+    "delivery_fee": 10,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/Taqueria_El_Grullense_MG_Palo_Alto.png",
+    "id": 886348,
+    "name": "Taqueria El Grullense M&G"
+  },
+  {
+    "status": "15 min",
+    "description": "Asian, Chinese, Vegetarian, Dim Sum",
+    "delivery_fee": 777,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/ChinaLive_DoorDash_LOGO.jpg",
+    "id": 1082982,
+    "name": "China Live Signatures"
+  },
+  {
+    "status": "Closed",
+    "description": "Burgers, Fast Food, Fries, Sandwiches, American, Late Night, Lunch, Comfort Food, Dinner, Comfort, Chicken, Sandwich, Vegetarian, Gluten-Free, Free Delivery, Pasta, Soup, &Drinks, Cheesesteaks, Deals, Dessert, Dinners, Good for Groups, Pickup, Restaurants, Salads, Soda, Alcohol",
+    "delivery_fee": 100,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/The-Melt.png",
+    "id": 62087,
+    "name": "The Melt"
+  },
+  {
+    "status": "30 mins",
+    "description": "Convenience, Grocery, Snacks, Slurpee, Chips, Ice Cream, Soda, Cheetos, Candy, Water, 7 Eleven, 7/11, 7-11",
+    "delivery_fee": 750,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/big.png",
+    "id": 738115,
+    "name": "7-Eleven"
+  },
+  {
+    "status": "Opened",
+    "description": "Hawaiian, Chicken, Comfort Food, Salads, Fast Food, Barbeque, Asian, Pickup, Takeout, Sandwich, Breakfast, Catering, Family Meals",
+    "delivery_fee": 1000,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/LLHawaiianBBQ_5752105_Las_Vegas_NV.png",
+    "id": 52948,
+    "name": "L&L Hawaiian Barbecue"
+  },
+  {
+    "status": "Opened",
+    "description": "Dinner, American (New), Sandwich, Fast Food, Burgers, Late Night, Breakfast, Lunch",
+    "delivery_fee": 632,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/Jack_Logo.png",
+    "id": 1084575,
+    "name": "Jack in the Box"
+  },
+  {
+    "status": "1 hr",
+    "description": "Pizza, Chicken Wings, Sandwiches, Dessert, Takeout, Pickup",
+    "delivery_fee": 799,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/papajohns440x230-transparent.png",
+    "id": 65207,
+    "name": "Papa John's Pizza"
+  },
+  {
+    "status": "2 hrs",
+    "description": "Fast Food, Burgers, Ice Cream, Breakfast, American (New), Dinner",
+    "delivery_fee": 97,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/McD_GoldenArches_1235_RGB_1.jpg",
+    "id": 662193,
+    "name": "McDonald's"
+  },
+  {
+    "status": "Closed",
+    "description": "Indian",
+    "delivery_fee": 1000,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/Dosa_Cover_Photo_.jpg",
+    "id": 763697,
+    "name": "dosa by DOSA"
+  },
+  {
+    "status": "Closed",
+    "description": "Good for Groups, Asian Food, Cambodian, Asian, Thai, Chinese",
+    "delivery_fee": 799,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/Tommy-Thai.png",
+    "id": 1443,
+    "name": "Tommy Thai"
+  },
+  {
+    "status": "Opened",
+    "description": "Mexican",
+    "delivery_fee": 10,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/Taqueria_El_Grullense_MG_Palo_Alto.png",
+    "id": 886348,
+    "name": "Taqueria El Grullense M&G"
+  },
+  {
+    "status": "15 min",
+    "description": "Asian, Chinese, Vegetarian, Dim Sum",
+    "delivery_fee": 777,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/ChinaLive_DoorDash_LOGO.jpg",
+    "id": 1082982,
+    "name": "China Live Signatures"
+  },
+  {
+    "status": "Closed",
+    "description": "Burgers, Fast Food, Fries, Sandwiches, American, Late Night, Lunch, Comfort Food, Dinner, Comfort, Chicken, Sandwich, Vegetarian, Gluten-Free, Free Delivery, Pasta, Soup, &Drinks, Cheesesteaks, Deals, Dessert, Dinners, Good for Groups, Pickup, Restaurants, Salads, Soda, Alcohol",
+    "delivery_fee": 100,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/The-Melt.png",
+    "id": 62087,
+    "name": "The Melt"
+  },
+  {
+    "status": "30 mins",
+    "description": "Convenience, Grocery, Snacks, Slurpee, Chips, Ice Cream, Soda, Cheetos, Candy, Water, 7 Eleven, 7/11, 7-11",
+    "delivery_fee": 750,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/big.png",
+    "id": 738115,
+    "name": "7-Eleven"
+  },
+  {
+    "status": "Opened",
+    "description": "Hawaiian, Chicken, Comfort Food, Salads, Fast Food, Barbeque, Asian, Pickup, Takeout, Sandwich, Breakfast, Catering, Family Meals",
+    "delivery_fee": 1000,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/LLHawaiianBBQ_5752105_Las_Vegas_NV.png",
+    "id": 52948,
+    "name": "L&L Hawaiian Barbecue"
+  },
+  {
+    "status": "Opened",
+    "description": "Dinner, American (New), Sandwich, Fast Food, Burgers, Late Night, Breakfast, Lunch",
+    "delivery_fee": 632,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/Jack_Logo.png",
+    "id": 1084575,
+    "name": "Jack in the Box"
+  },
+  {
+    "status": "1 hr",
+    "description": "Pizza, Chicken Wings, Sandwiches, Dessert, Takeout, Pickup",
+    "delivery_fee": 799,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/papajohns440x230-transparent.png",
+    "id": 65207,
+    "name": "Papa John's Pizza"
+  },
+  {
+    "status": "2 hrs",
+    "description": "Fast Food, Burgers, Ice Cream, Breakfast, American (New), Dinner",
+    "delivery_fee": 97,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/McD_GoldenArches_1235_RGB_1.jpg",
+    "id": 662193,
+    "name": "McDonald's"
+  },
+  {
+    "status": "Closed",
+    "description": "Indian",
+    "delivery_fee": 1000,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/Dosa_Cover_Photo_.jpg",
+    "id": 763697,
+    "name": "dosa by DOSA"
+  },
+  {
+    "status": "Closed",
+    "description": "Good for Groups, Asian Food, Cambodian, Asian, Thai, Chinese",
+    "delivery_fee": 799,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/Tommy-Thai.png",
+    "id": 1443,
+    "name": "Tommy Thai"
+  },
+  {
+    "status": "Opened",
+    "description": "Mexican",
+    "delivery_fee": 10,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/Taqueria_El_Grullense_MG_Palo_Alto.png",
+    "id": 886348,
+    "name": "Taqueria El Grullense M&G"
+  },
+  {
+    "status": "15 min",
+    "description": "Asian, Chinese, Vegetarian, Dim Sum",
+    "delivery_fee": 777,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/ChinaLive_DoorDash_LOGO.jpg",
+    "id": 1082982,
+    "name": "China Live Signatures"
+  },
+  {
+    "status": "Closed",
+    "description": "Burgers, Fast Food, Fries, Sandwiches, American, Late Night, Lunch, Comfort Food, Dinner, Comfort, Chicken, Sandwich, Vegetarian, Gluten-Free, Free Delivery, Pasta, Soup, &Drinks, Cheesesteaks, Deals, Dessert, Dinners, Good for Groups, Pickup, Restaurants, Salads, Soda, Alcohol",
+    "delivery_fee": 100,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/The-Melt.png",
+    "id": 62087,
+    "name": "The Melt"
+  },
+  {
+    "status": "30 mins",
+    "description": "Convenience, Grocery, Snacks, Slurpee, Chips, Ice Cream, Soda, Cheetos, Candy, Water, 7 Eleven, 7/11, 7-11",
+    "delivery_fee": 750,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/big.png",
+    "id": 738115,
+    "name": "7-Eleven"
+  },
+  {
+    "status": "Opened",
+    "description": "Hawaiian, Chicken, Comfort Food, Salads, Fast Food, Barbeque, Asian, Pickup, Takeout, Sandwich, Breakfast, Catering, Family Meals",
+    "delivery_fee": 1000,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/LLHawaiianBBQ_5752105_Las_Vegas_NV.png",
+    "id": 52948,
+    "name": "L&L Hawaiian Barbecue"
+  },
+  {
+    "status": "Opened",
+    "description": "Dinner, American (New), Sandwich, Fast Food, Burgers, Late Night, Breakfast, Lunch",
+    "delivery_fee": 632,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/Jack_Logo.png",
+    "id": 1084575,
+    "name": "Jack in the Box"
+  },
+  {
+    "status": "1 hr",
+    "description": "Pizza, Chicken Wings, Sandwiches, Dessert, Takeout, Pickup",
+    "delivery_fee": 799,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/papajohns440x230-transparent.png",
+    "id": 65207,
+    "name": "Papa John's Pizza"
+  },
+  {
+    "status": "2 hrs",
+    "description": "Fast Food, Burgers, Ice Cream, Breakfast, American (New), Dinner",
+    "delivery_fee": 97,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/McD_GoldenArches_1235_RGB_1.jpg",
+    "id": 662193,
+    "name": "McDonald's"
+  },
+  {
+    "status": "Closed",
+    "description": "Indian",
+    "delivery_fee": 1000,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/Dosa_Cover_Photo_.jpg",
+    "id": 763697,
+    "name": "dosa by DOSA"
+  },
+  {
+    "status": "Closed",
+    "description": "Good for Groups, Asian Food, Cambodian, Asian, Thai, Chinese",
+    "delivery_fee": 799,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/Tommy-Thai.png",
+    "id": 1443,
+    "name": "Tommy Thai"
+  },
+  {
+    "status": "Opened",
+    "description": "Mexican",
+    "delivery_fee": 10,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/Taqueria_El_Grullense_MG_Palo_Alto.png",
+    "id": 886348,
+    "name": "Taqueria El Grullense M&G"
+  },
+  {
+    "status": "15 min",
+    "description": "Asian, Chinese, Vegetarian, Dim Sum",
+    "delivery_fee": 777,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/ChinaLive_DoorDash_LOGO.jpg",
+    "id": 1082982,
+    "name": "China Live Signatures"
+  },
+  {
+    "status": "Closed",
+    "description": "Burgers, Fast Food, Fries, Sandwiches, American, Late Night, Lunch, Comfort Food, Dinner, Comfort, Chicken, Sandwich, Vegetarian, Gluten-Free, Free Delivery, Pasta, Soup, &Drinks, Cheesesteaks, Deals, Dessert, Dinners, Good for Groups, Pickup, Restaurants, Salads, Soda, Alcohol",
+    "delivery_fee": 100,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/The-Melt.png",
+    "id": 62087,
+    "name": "The Melt"
+  },
+  {
+    "status": "30 mins",
+    "description": "Convenience, Grocery, Snacks, Slurpee, Chips, Ice Cream, Soda, Cheetos, Candy, Water, 7 Eleven, 7/11, 7-11",
+    "delivery_fee": 750,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/big.png",
+    "id": 738115,
+    "name": "7-Eleven"
+  },
+  {
+    "status": "Opened",
+    "description": "Hawaiian, Chicken, Comfort Food, Salads, Fast Food, Barbeque, Asian, Pickup, Takeout, Sandwich, Breakfast, Catering, Family Meals",
+    "delivery_fee": 1000,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/LLHawaiianBBQ_5752105_Las_Vegas_NV.png",
+    "id": 52948,
+    "name": "L&L Hawaiian Barbecue"
+  },
+  {
+    "status": "Opened",
+    "description": "Dinner, American (New), Sandwich, Fast Food, Burgers, Late Night, Breakfast, Lunch",
+    "delivery_fee": 632,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/Jack_Logo.png",
+    "id": 1084575,
+    "name": "Jack in the Box"
+  },
+  {
+    "status": "1 hr",
+    "description": "Pizza, Chicken Wings, Sandwiches, Dessert, Takeout, Pickup",
+    "delivery_fee": 799,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/papajohns440x230-transparent.png",
+    "id": 65207,
+    "name": "Papa John's Pizza"
+  },
+  {
+    "status": "2 hrs",
+    "description": "Fast Food, Burgers, Ice Cream, Breakfast, American (New), Dinner",
+    "delivery_fee": 97,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/McD_GoldenArches_1235_RGB_1.jpg",
+    "id": 662193,
+    "name": "McDonald's"
+  },
+  {
+    "status": "Closed",
+    "description": "Indian",
+    "delivery_fee": 1000,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/Dosa_Cover_Photo_.jpg",
+    "id": 763697,
+    "name": "dosa by DOSA"
+  },
+  {
+    "status": "Closed",
+    "description": "Good for Groups, Asian Food, Cambodian, Asian, Thai, Chinese",
+    "delivery_fee": 799,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/Tommy-Thai.png",
+    "id": 1443,
+    "name": "Tommy Thai"
+  },
+  {
+    "status": "Opened",
+    "description": "Mexican",
+    "delivery_fee": 10,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/Taqueria_El_Grullense_MG_Palo_Alto.png",
+    "id": 886348,
+    "name": "Taqueria El Grullense M&G"
+  },
+  {
+    "status": "15 min",
+    "description": "Asian, Chinese, Vegetarian, Dim Sum",
+    "delivery_fee": 777,
+    "cover_img_url": "https://cdn.doordash.com/media/restaurant/cover/ChinaLive_DoorDash_LOGO.jpg",
+    "id": 1082982,
+    "name": "China Live Signatures"
+  }
+]

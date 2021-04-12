@@ -1,0 +1,26 @@
+<resources>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Restaurants List</string>
+    <string name="second_fragment_label">Restaurant Details Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="app_name">Door Dash Lite</string>
+    <string name="restaurant_name">Restaurant Name</string>
+    <string name="restaurant_address">Restaurant Address</string>
+    <string name="restaurant_desc">Food, cuisine, type</string>
+    <string name="restaurant_cost">Delivery fee : </string>
+    <string name="open_still">Open</string>
+    <string name="arriving_minutes">15 mins</string>
+    <string name="delivery_cost">$0.00</string>
+    <string name="review_ratings">4.0 / 5.0(1234ratings)</string>
+    <string name="restaurant_type">Italian</string>
+    <string name="error_message">It\'s not you, it\'s us..!! </string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="error_fetching_details">Error fetching restaurant details</string>
+    <string name="msg_list_is_empty">Empty Restaurant List</string>
+    <string name="msg_fetch_list_has_error">Error fetching restaurant lists</string>
+</resources>

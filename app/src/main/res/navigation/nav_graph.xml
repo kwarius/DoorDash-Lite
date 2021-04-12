@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/restaurantListFragment">
+
+    <fragment
+        android:id="@+id/restaurantListFragment"
+        android:name="com.ruslan.doordashlite.presentation.fragments.RestaurantListFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_restaurant_list">
+
+        <action
+            android:id="@+id/action_restaurantListFragment_to_restaurantDetailsFragment"
+            app:destination="@id/restaurantDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/restaurantDetailsFragment"
+        android:name="com.ruslan.doordashlite.presentation.fragments.RestaurantDetailsFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_restaurant_details">
+
+        <argument
+            android:name="restaurantId"
+            app:argType="integer" />
+
+        <action
+            android:id="@+id/action_restaurantDetailsFragment_to_restaurantListFragment"
+            app:destination="@id/restaurantListFragment" />
+    </fragment>
+</navigation>

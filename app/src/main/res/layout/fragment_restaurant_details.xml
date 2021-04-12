@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <import type="android.view.View" />
+        <import type="android.text.TextUtils"/>
+
+        <variable
+            name="restaurantViewModel"
+            type="com.ruslan.doordashlite.presentation.viewmodel.RestaurantViewModel" />
+    </data>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="@dimen/layout_padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/errorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:text="@{restaurantViewModel.errorMessage}"
+            android:visibility="@{restaurantViewModel.errorMessage == null ? View.GONE : View.VISIBLE}"/>
+
+        <ImageView
+            android:id="@+id/restaurantImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/restaurant_details_error_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="@dimen/padding"
+            android:paddingBottom="@dimen/padding"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold"
+            android:visibility="@{safeUnbox(restaurantViewModel.isWaiting) || restaurantViewModel.errorMessage != null ? View.GONE : View.VISIBLE}"
+            tools:text="Something went wrong, please try again later :(" />
+
+        <TextView
+            android:id="@+id/restaurantName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/restaurant_name"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/large_text_size"
+            android:visibility="@{safeUnbox(restaurantViewModel.isWaiting) || restaurantViewModel.errorMessage != null ? View.GONE : View.VISIBLE}"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/restaurantDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding"
+            android:paddingBottom="@dimen/padding"
+            android:text="@string/restaurant_type"
+            android:visibility="@{safeUnbox(restaurantViewModel.isWaiting) || restaurantViewModel.errorMessage != null ? View.GONE : View.VISIBLE}"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/text_size" />
+
+        <RatingBar
+            android:id="@+id/restaurantRatingStar"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top_padding"
+            android:clickable="false"
+            android:gravity="start"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:stepSize="1"
+            android:theme="@style/RatingBar"
+            android:visibility="@{safeUnbox(restaurantViewModel.isWaiting) || restaurantViewModel.errorMessage != null ? View.GONE : View.VISIBLE}" />
+
+        <TextView
+            android:id="@+id/restaurantAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/restaurant_address"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size"
+            android:visibility="@{safeUnbox(restaurantViewModel.isWaiting) || restaurantViewModel.errorMessage != null ? View.GONE : View.VISIBLE}"
+            android:layout_marginTop="@dimen/top_padding"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="@{safeUnbox(restaurantViewModel.isWaiting) || restaurantViewModel.errorMessage != null ? View.GONE : View.VISIBLE}"
+            android:paddingTop="@dimen/padding"
+            android:paddingBottom="@dimen/padding">
+
+            <TextView
+                android:id="@+id/restaurantDeliveryFee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/delivery_cost"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/restaurantStatus"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="@string/arriving_minutes"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/restaurantHeaderImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:visibility="visible" />
+    </LinearLayout>
+</ScrollView>
+</layout>
